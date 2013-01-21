@@ -1,6 +1,54 @@
 (function() {
+
+	/** Configs **/
+
+	var items = [
+		{
+			name: "Item 1"
+		},
+		{
+			name: "Item 2"
+		},
+		{
+			name: "Item 3"
+		},
+		{
+			name: "Item 4"
+		},
+		{
+			name: "Item 5"
+		},
+		{
+			name: "Item 6"
+		},
+		{
+			name: "Item 7"
+		},
+	];
+
+	/** End Configs **/
+
 	$(document).ready(function() {
 		var start, runLoop, effects;
+
+		for(var i=0, max=items.length; i<max; i++) {
+			var item = items[i];
+
+			var itemDiv = $("<div class='item'><span>"+item.name+"</span></div>");
+
+			$("#listModal").append(itemDiv);
+		}
+
+		$("#listModal .item").click(function() {
+			if($(this).hasClass("selected")) {
+				$(this).removeClass("selected");
+			} else {
+				if($("#listModal .selected").length < 3) {
+
+				}
+			}
+		});
+
 
 		start = runLoop = function(count, stop) {
 		if(count < stop) {
@@ -16,8 +64,8 @@
 
 		/***** Animation Fun ******/
 
-		var singleTime = 1000;
-		var doubleTime = 500;
+		var singleTime = 700;
+		var doubleTime = 300;
 
 		effects = {
 
@@ -218,8 +266,6 @@
 			}
 
 		};
-
-		start(0, 10);
 
 	});
 

@@ -14,14 +14,36 @@ div#game {
 	height: 100%;
 	width: 100%;
 	position: relative;
+	z-index: 10;
+}
+
+div#listModal {
+	z-index: 100;
+	width: 500px;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -250px;
+	background-color: white;
+	border: 1px solid grey;
+}
+
+div#listModal .item {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+	margin: 5px;
+	background: grey;
 }
 
 div.cup {
-	height: 30px;
-	width: 30px;
+	height: 80px;
+	width: 80px;
 	border: 1px solid black;
 	position: absolute;
 	top: 50%;
+	background-grey;
 }
 
 
@@ -57,15 +79,15 @@ div.cup.down {
 }
 
 .single-time {
-	transition: top 1s, left 1s;
-	-webkit-transition: top 1s, left 1s;
-	-moz-transition: top 1s, left 1s;
-	-o-transition: top 1s, left 1s;
+	transition: top .7s, left .7s;
+	-webkit-transition: top .7s, left .7s;
+	-moz-transition: top .7s, left .7s;
+	-o-transition: top .7s, left .7s;
 }
 
 .double-time {
-	transition: top .5s, left .5s;
-	-webkit-transition: top .5s, left .5s;
-	-moz-transition: top .5s, left .5s;
-	-o-transition: top .5s, left .5s;
+	transition: top .3s, left .3s;
+	-webkit-transition: top .3s, left .3s;
+	-moz-transition: top .3s, left .3s;
+	-o-transition: top .3s, left .3s;
 }
