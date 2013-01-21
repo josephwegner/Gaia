@@ -5,43 +5,43 @@
 	var items = [
 		{
 			name: "Item 1",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://brucemctague.com/wp-content/uploads/2010/07/one-1.jpg"
 		},
 		{
 			name: "Item 2",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://nasmm.files.wordpress.com/2012/02/2-photo.gif"
 		},
 		{
 			name: "Item 3",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://www.techdigest.tv/three%20thumb.jpg"
 		},
 		{
 			name: "Item 4",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://georgejessielove.files.wordpress.com/2012/05/four.jpg"
 		},
 		{
 			name: "Item 5",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://www.takefive-design.com/take%20five%20design.png"
 		},
 		{
 			name: "Item 6",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://www.charitytechnews.co.uk/wp-content/uploads/2012/11/Six-Degrees-Logo.jpg"
 		},
 		{
 			name: "Item 7",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://blog.luckyvitamin.com/wp-content/uploads/2007/12/seven.png"
 		},
 		{
 			name: "Item 8",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://us.123rf.com/400wm/400/400/penog123/penog1231105/penog123110500001/9461501-eight-ball-isolated-over-white-square-background.jpg"
 		},
 		{
 			name: "Item 9",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://broadcast.oreilly.com/nine.jpg"
 		},
 		{
 			name: "Item 10",
-			image: "http://wegnerdesign.com/images/logo.png"
+			image: "http://johndobbs.com/wp-content/uploads/2011/03/10Ten1.jpg"
 		},
 	];
 	
@@ -101,7 +101,8 @@
 
 		countDown = function() {
 			setTimeout(function() {
-				$(".cup img").fadeOut(200, function() { start(0, 10); })
+				$(".cup img").fadeOut(200)
+				setTimeout(function() { start(0, 10); }, 200);
 			}, 3000)	
 		};
 
