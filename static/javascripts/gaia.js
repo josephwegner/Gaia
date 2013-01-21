@@ -44,8 +44,12 @@
 				$(this).removeClass("selected");
 			} else {
 				if($("#listModal .selected").length < 3) {
-
+                    $(this).addClass("selected");
 				}
+                
+                if($("#listModal .selected").length === 3) {
+                    //move forward
+                }
 			}
 		});
 

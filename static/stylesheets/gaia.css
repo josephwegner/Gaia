@@ -37,13 +37,17 @@ div#listModal .item {
 	background: grey;
 }
 
+div#listModal .item.selected {
+    border: 2px solid green;
+}
+
 div.cup {
 	height: 80px;
 	width: 80px;
 	border: 1px solid black;
 	position: absolute;
 	top: 50%;
-	background-grey;
+	background: grey;
 }
 
 
