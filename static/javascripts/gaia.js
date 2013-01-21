@@ -4,58 +4,109 @@
 
 	var items = [
 		{
-			name: "Item 1"
+			name: "Item 1",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 2"
+			name: "Item 2",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 3"
+			name: "Item 3",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 4"
+			name: "Item 4",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 5"
+			name: "Item 5",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 6"
+			name: "Item 6",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 		{
-			name: "Item 7"
+			name: "Item 7",
+			image: "http://wegnerdesign.com/images/logo.png"
+		},
+		{
+			name: "Item 8",
+			image: "http://wegnerdesign.com/images/logo.png"
+		},
+		{
+			name: "Item 9",
+			image: "http://wegnerdesign.com/images/logo.png"
+		},
+		{
+			name: "Item 10",
+			image: "http://wegnerdesign.com/images/logo.png"
 		},
 	];
+	
+	var positions = ['left', 'mid', 'right'];
 
 	/** End Configs **/
 
 	$(document).ready(function() {
-		var start, runLoop, effects;
+		var start, runLoop, effects, countDown, endGame;
 
 		for(var i=0, max=items.length; i<max; i++) {
 			var item = items[i];
 
-			var itemDiv = $("<div class='item'><span>"+item.name+"</span></div>");
+			var itemDiv = $("<div class='item' data-index='"+i+"'><img src='"+item.image+"' /><span>"+item.name+"</span></div>");
 
-			$("#listModal").append(itemDiv);
+			$("#listModal").prepend(itemDiv);
 		}
 
 		$("#listModal .item").click(function() {
 			if($(this).hasClass("selected")) {
 				$(this).removeClass("selected");
+				
+				if($("#listModal .selected").length < 3) {
+                    $("#startOverlay").fadeIn(300);
+                }
 			} else {
 				if($("#listModal .selected").length < 3) {
                     $(this).addClass("selected");
 				}
-                
+
                 if($("#listModal .selected").length === 3) {
-                    //move forward
+                    $("#startOverlay").fadeIn(300);
                 }
 			}
 		});
+		
+		$("#startGame").click(function() {
+			var selected  = [];
+			
+			$(".selected").each(function(index) {
+				var item = items[$(this).attr('data-index')];
+				var cup = $("<div class='cup "+positions[index]+"'><img src='"+item.image+"' /></div>");
+				
+				$(cup).attr('data-index', $(this).attr('data-index'));
+				
+				$("#game").append(cup);
+			})
+			
+			$("#listModal").hide();
+			$("#startGame").hide();
+			$(".selected").removeClass("selected");
+			
+			countDown();
+			
+			
+		});
 
+		countDown = function() {
+			setTimeout(function() {
+				$(".cup img").fadeOut(200, function() { start(0, 10); })
+			}, 3000)	
+		};
 
 		start = runLoop = function(count, stop) {
-		if(count < stop) {
+			if(count < stop) {
 				var keys = Object.keys(effects);
 
 				var effect = effects[keys[Math.floor(Math.random() * keys.length)]];
@@ -63,8 +114,14 @@
 				effect(function() {
 					runLoop(++count, stop);
 				})
+			} else {
+				endGame();
 			}
 		};
+		
+		endGame = function() {
+			$(".cup img").fadeIn(200);
+		}
 
 		/***** Animation Fun ******/
 
