@@ -1,0 +1,71 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+div#game {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+div.cup {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	position: absolute;
+	top: 50%;
+}
+
+
+
+/**** Animation Love ****/
+
+div.cup.left {
+	left: 30%;
+}
+
+div.cup.mid {
+	left: 50%;
+}
+
+div.cup.right {
+	left: 70%;
+}
+
+div.cup.lm-mid {
+	left: 40%;
+}
+
+div.cup.rm-mid {
+	left: 60%;
+}
+
+div.cup.up {
+	top: 30%;
+}
+
+div.cup.down {
+	top: 70%;
+}
+
+.single-time {
+	transition: top 1s, left 1s;
+	-webkit-transition: top 1s, left 1s;
+	-moz-transition: top 1s, left 1s;
+	-o-transition: top 1s, left 1s;
+}
+
+.double-time {
+	transition: top .5s, left .5s;
+	-webkit-transition: top .5s, left .5s;
+	-moz-transition: top .5s, left .5s;
+	-o-transition: top .5s, left .5s;
+}
