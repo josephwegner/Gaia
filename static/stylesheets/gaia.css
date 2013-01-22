@@ -18,202 +18,26 @@ div#game {
 	z-index: 10;
 }
 
-div#listModal {
-	z-index: 100;
-	width: 1060px;
-	max-height: 80%;
+div#game .pawn {
 	position: absolute;
-	top: 5%;
-	left: 50%;
-	margin-left: -530px;
-	background-color: rgba(0, 0, 0, 0.4);
-	border: 10px solid rgba(255, 255, 255, 0.4);
-	overflow: scroll;
-}
-
-div#listModal h2 {
-	color: #848484;
-	font-size: 2em;
-	text-align: center;
-}
-
-div#listModal .item {
-	float: left;
-	height: 80px;
-	width: 300px;
-	border: 1px solid #383838;
-	margin: 10px 25px 10px 25px;
-	border-radius: 5px;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#141414), to(#242424));
-	background: -webkit-linear-gradient(top, #141414, #242424);
-	background: -moz-linear-gradient(top, #141414, #242424);
-	background: -ms-linear-gradient(top, #141414, #242424);
-	background: -o-linear-gradient(top, #141414, #242424);
-	color: #F0F0F0;
-	cursor: pointer;
-	position: relative;
-}
-
-div#listModal .item:hover {
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#242424));
-	background: -webkit-linear-gradient(top, #222222, #242424);
-	background: -moz-linear-gradient(top, #222222, #242424);
-	background: -ms-linear-gradient(top, #222222, #242424);
-	background: -o-linear-gradient(top, #222222, #242424);
-}
-
-div#listModal .item img {
-	max-width: 70px;
-	max-height: 70px;
-	border-radius: 5px;
-	border: 1px solid #383838;
-	margin: 5px;
-}
-
-div#listModal .item span {
-	position: relative;
-	top: -35px;
-	font-size: 16px;
-	font-family: sans-serif;
-}
-
-div#listModal .item.selected {
-    border: 1px solid green;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#242424));
-	background: -webkit-linear-gradient(top, #222222, #242424);
-	background: -moz-linear-gradient(top, #222222, #242424);
-	background: -ms-linear-gradient(top, #222222, #242424);
-	background: -o-linear-gradient(top, #222222, #242424);
-}
-
-#startOverlay {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    z-index: 150;
-}
-
-#startOverlay button {
-	position: absolute;
-	height: 60px;
-	width: 250px;
 	top: 50%;
-	left: 50%;
-	margin-left: -125px;
-	margin-top: -30px;
-	background-color: #4BAD3E;
-	color: #222222;
-	border: none;
-	font-size: 30px;
-	cursor: pointer;
 }
 
-#startOverlay button:hover {
-	background-color: green;
+div#game .player {
+	height: 30px;
+	width: 20px;
+	background-color: blue;
+	left: 10%;
+	transition: top: .5s;
+	-webkit-transition: top .5s;
+	-moz-transition: top .5s;
+	-o-transition: top .5s;
+	-ms-transition: top .5s;
 }
 
-div.cup {
-	height: 80px;
-	width: 80px;
-	border: 1px solid black;
-	position: absolute;
-	top: 35%;
-	cursor: pointer;
-	overflow: scroll;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#141414), to(#242424));
-	background: -webkit-linear-gradient(top, #141414, #242424);
-	background: -moz-linear-gradient(top, #141414, #242424);
-	background: -ms-linear-gradient(top, #141414, #242424);
-	background: -o-linear-gradient(top, #141414, #242424);
-}
-
-div.cup.win {
-	transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
-	-webkit-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
-	-moz-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
-	-o-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
-	
-	width: 500px;
-	height: 500px;
-	top: 15% !important;
-	left: 50% !important;
-	margin-left: -250px;
-}
-
-div.cup img {
-	max-width: 70px;
-	max-height: 70px;
-	border: 1px solid #383838;
-	border-radius: 5px;
-	margin: 5px;
-}
-
-div.cup span {
-	display: block;
-	color: #848484;
-	padding: 10px;
-	font-size: 16px;
-	line-height: 1.5em;
-	text-align: justify;
-}
-
-#game {
-	text-align: center;
-	padding-top: 15%;
-}
-
-#message {
-	font-size: 8em;
-	color: #848484
-}
-
-
-
-/**** Animation Love ****/
-
-div.cup.left {
-	left: 30%;
-}
-
-div.cup.mid {
-	left: 50%;
-}
-
-div.cup.right {
-	left: 70%;
-}
-
-div.cup.lm-mid {
-	left: 40%;
-}
-
-div.cup.rm-mid {
-	left: 60%;
-}
-
-div.cup.up {
-	top: 15%;
-}
-
-div.cup.down {
-	top: 55%;
-}
-
-.single-time {
-	transition: top .7s, left .7s;
-	-webkit-transition: top .7s, left .7s;
-	-moz-transition: top .7s, left .7s;
-	-o-transition: top .7s, left .7s;
-}
-
-.double-time {
-	transition: top .3s, left .3s;
-	-webkit-transition: top .3s, left .3s;
-	-moz-transition: top .3s, left .3s;
-	-o-transition: top .3s, left .3s;
+div#game .enemy {
+	height: 10px;
+	width: 10px;
+	background-color: red;
+	right: 10px;
 }
