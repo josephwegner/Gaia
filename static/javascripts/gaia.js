@@ -70,8 +70,21 @@
 		"up": false,
 		"left": false
 	}
-
+	
+	var spawnVariance = 1;
+	var spawnRate = 75;
+	var prizeRate = 5;
+	
+	var enemies = [];
+	
+	var loopInterval;
+	var inJump = false;
+	
 	$(document).ready(function() {
+		
+		$(".player").css('bottom', $(".player").offset().top + $(".player").height());
+		
+
 		
 		$(document).keydown(function(e) {
 			var dir = directions[e.keyCode] ? directions[e.keyCode] : false;
@@ -81,8 +94,34 @@
 				
 				switch(dir) {
 					case "up":
-						$(".player").css('top', '-=20');
-						setTimeout(function() { $(".player").css('top', '+=20'); }, 510);
+						if(!inJump) {
+							inJump = true;
+							$(".player").css('bottom', '+=20px');
+							setTimeout(function() { 
+								$(".player").css('bottom', '-=20px'); 
+								setTimeout(function() {
+									var pLeft = $(".player").offset().left;
+									
+									var alive = [];
+									
+									for(var i=0, max=enemies.length; i<max; i++) {
+										var enemy = enemies[i];
+										
+										var eLeft = $(enemy).offset().left;
+										
+										if(Math.abs(eLeft - pLeft) < 20) {
+											kill(enemy);
+										} else {
+											alive.push(enemy);
+										}
+									}
+									
+									enemies = alive;
+									
+									inJump = false;
+								}, 210);
+							}, 210);
+						}
 						break;
 				}
 			}
@@ -97,10 +136,11 @@
 		});
 		
 		
-		setInterval(eventLoop, 50);
+		loopInterval = setInterval(eventLoop, 50);
 		
 	});
 
+	
 
 	function eventLoop() {
 		if(keysDown.right) {
@@ -109,6 +149,51 @@
 		
 		if(keysDown.left) {
 			$(".player").css('left', '-=10px');
+		}
+		
+		if(Math.floor(Math.random() * (spawnRate / spawnVariance)) === 1) spawn();
+		
+		var pLeft = $(".player").offset().left;
+		
+		for(var i=0, max=enemies.length; i<max; i++) {
+			var enemy = enemies[i];
+
+			if(pLeft < $(enemy).offset().left) {
+				$(enemy).css('left', "-=5px");
+			} else if(pLeft > $(enemy).offset().left) {
+				$(enemy).css('left', '+=5px');
+			}
+			
+			if(Math.abs($(enemy).offset().left - pLeft) < 20 && !inJump) {
+				clearInterval(loopInterval);
+				console.log("You lose");
+				break;
+			}
+		}
+	}
+	
+	function spawn() {
+		var spawn = $("<div>").addClass("pawn").addClass("enemy");
+		$("#game").append(spawn);
+		$(spawn).css('left', $(spawn).offset().left);
+		enemies.push(spawn);
+	}
+	
+	function kill(enemy) {
+		console.log("hit");
+		$(enemy).remove();
+		
+		if(Math.floor(Math.random() * prizeRate) === 1) {
+			
+			if(items.length) {
+				var prize = items.shift();
+				spawnVariance += .8;
+				
+				console.log("You won "+prize.name);
+			} else {
+				clearInterval(loopInterval);
+				console.log("You win!");
+			}
 		}
 	}
 

@@ -20,7 +20,7 @@ div#game {
 
 div#game .pawn {
 	position: absolute;
-	top: 50%;
+	bottom: 50%;
 }
 
 div#game .player {
@@ -28,11 +28,11 @@ div#game .player {
 	width: 20px;
 	background-color: blue;
 	left: 10%;
-	transition: top: .5s;
-	-webkit-transition: top .5s;
-	-moz-transition: top .5s;
-	-o-transition: top .5s;
-	-ms-transition: top .5s;
+	transition: top: .2s;
+	-webkit-transition: bottom .2s;
+	-moz-transition: bottom .2s;
+	-o-transition: bottom .2s;
+	-ms-transition: bottom .2s;
 }
 
 div#game .enemy {
