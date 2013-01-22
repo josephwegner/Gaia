@@ -31,8 +31,14 @@ div#listModal {
 	overflow: scroll;
 }
 
+div#listModal h2 {
+	color: #848484;
+	font-size: 2em;
+	text-align: center;
+}
+
 div#listModal .item {
-	display: inline-block;
+	float: left;
 	height: 80px;
 	width: 300px;
 	border: 1px solid #383838;
@@ -72,7 +78,7 @@ div#listModal .item span {
 }
 
 div#listModal .item.selected {
-    border: 2px solid green;
+    border: 1px solid green;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#242424));
 	background: -webkit-linear-gradient(top, #222222, #242424);
 	background: -moz-linear-gradient(top, #222222, #242424);
@@ -89,6 +95,7 @@ div#listModal .item.selected {
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
+    z-index: 150;
 }
 
 #startOverlay button {
@@ -115,12 +122,27 @@ div.cup {
 	width: 80px;
 	border: 1px solid black;
 	position: absolute;
-	top: 50%;
+	top: 35%;
+	cursor: pointer;
+	overflow: scroll;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#141414), to(#242424));
 	background: -webkit-linear-gradient(top, #141414, #242424);
 	background: -moz-linear-gradient(top, #141414, #242424);
 	background: -ms-linear-gradient(top, #141414, #242424);
 	background: -o-linear-gradient(top, #141414, #242424);
+}
+
+div.cup.win {
+	transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
+	-webkit-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
+	-moz-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
+	-o-transition: top 1s, left 1s, width 1s, height 1s, margin-left 1s;
+	
+	width: 500px;
+	height: 500px;
+	top: 15% !important;
+	left: 50% !important;
+	margin-left: -250px;
 }
 
 div.cup img {
@@ -129,6 +151,25 @@ div.cup img {
 	border: 1px solid #383838;
 	border-radius: 5px;
 	margin: 5px;
+}
+
+div.cup span {
+	display: block;
+	color: #848484;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+#game {
+	text-align: center;
+	padding-top: 15%;
+}
+
+#message {
+	font-size: 8em;
+	color: #848484
 }
 
 
@@ -156,11 +197,11 @@ div.cup.rm-mid {
 }
 
 div.cup.up {
-	top: 30%;
+	top: 15%;
 }
 
 div.cup.down {
-	top: 70%;
+	top: 55%;
 }
 
 .single-time {

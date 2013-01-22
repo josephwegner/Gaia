@@ -5,43 +5,53 @@
 	var items = [
 		{
 			name: "Item 1",
-			image: "http://brucemctague.com/wp-content/uploads/2010/07/one-1.jpg"
+			image: "http://brucemctague.com/wp-content/uploads/2010/07/one-1.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 2",
-			image: "http://nasmm.files.wordpress.com/2012/02/2-photo.gif"
+			image: "http://nasmm.files.wordpress.com/2012/02/2-photo.gif",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 3",
-			image: "http://www.techdigest.tv/three%20thumb.jpg"
+			image: "http://www.techdigest.tv/three%20thumb.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 4",
-			image: "http://georgejessielove.files.wordpress.com/2012/05/four.jpg"
+			image: "http://georgejessielove.files.wordpress.com/2012/05/four.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 5",
-			image: "http://www.takefive-design.com/take%20five%20design.png"
+			image: "http://www.takefive-design.com/take%20five%20design.png",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 6",
-			image: "http://www.charitytechnews.co.uk/wp-content/uploads/2012/11/Six-Degrees-Logo.jpg"
+			image: "http://www.charitytechnews.co.uk/wp-content/uploads/2012/11/Six-Degrees-Logo.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 7",
-			image: "http://blog.luckyvitamin.com/wp-content/uploads/2007/12/seven.png"
+			image: "http://blog.luckyvitamin.com/wp-content/uploads/2007/12/seven.png",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 8",
-			image: "http://us.123rf.com/400wm/400/400/penog123/penog1231105/penog123110500001/9461501-eight-ball-isolated-over-white-square-background.jpg"
+			image: "http://us.123rf.com/400wm/400/400/penog123/penog1231105/penog123110500001/9461501-eight-ball-isolated-over-white-square-background.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 9",
-			image: "http://broadcast.oreilly.com/nine.jpg"
+			image: "http://broadcast.oreilly.com/nine.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 		{
 			name: "Item 10",
-			image: "http://johndobbs.com/wp-content/uploads/2011/03/10Ten1.jpg"
+			image: "http://johndobbs.com/wp-content/uploads/2011/03/10Ten1.jpg",
+			description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis, lectus sit amet sodales accumsan, purus felis commodo odio, vel blandit tellus odio ut purus. Aliquam dapibus, tortor id lacinia porta, lorem ligula sodales nisl, sed molestie quam magna at urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas laoreet cursus vulputate. Fusce viverra euismod diam, et porta velit aliquet ut. Donec at nulla vel urna volutpat pharetra. Sed id leo at nunc elementum euismod quis a metus. Etiam quis orci at leo ultrices hendrerit consequat ac elit. Nam non massa non est mattis imperdiet sit amet accumsan mi. Suspendisse porttitor orci eu arcu porttitor eget porttitor massa elementum. Donec sed elit in eros vehicula tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquet tellus id nulla convallis luctus pharetra nunc mollis. Cras laoreet facilisis gravida. Sed sem eros, varius eu auctor eu, molestie vitae metus. Ut lectus magna, vulputate vel commodo ut, vestibulum eget est. <br> Suspendisse rhoncus consequat libero. Suspendisse potenti. Ut vel nunc mollis sem tempor iaculis. Sed porta enim quis eros elementum nec elementum eros tempus. Suspendisse gravida auctor tortor non dignissim. Nunc vitae mi sed lorem bibendum accumsan. Nulla lorem magna, viverra nec ultrices porttitor, dictum sit amet ligula. Vivamus sagittis libero a lorem sagittis et egestas ante faucibus. Etiam at felis nibh. Donec feugiat bibendum dui, sed volutpat sem aliquam laoreet. Aenean in mattis diam. Cras nisi nibh, cursus id facilisis eget, varius ac magna. <br> Donec convallis erat id libero viverra elementum. Donec nec lorem blandit erat dictum pulvinar a quis nisi. Sed velit arcu, sollicitudin in pharetra nec, faucibus eu urna. Suspendisse vulputate viverra pharetra. Donec volutpat, enim et aliquet ullamcorper, tortor eros mollis neque, a pulvinar ante lorem nec sapien. Curabitur lobortis odio mauris, eu iaculis metus. Nunc molestie enim eget dui iaculis pellentesque. Nulla facilisi. In vel gravida enim. Nunc lacinia dui nec nisi malesuada eu condimentum tellus sagittis."
 		},
 	];
 	
@@ -57,16 +67,12 @@
 
 			var itemDiv = $("<div class='item' data-index='"+i+"'><img src='"+item.image+"' /><span>"+item.name+"</span></div>");
 
-			$("#listModal").prepend(itemDiv);
+			$("#listModal").append(itemDiv);
 		}
 
 		$("#listModal .item").click(function() {
 			if($(this).hasClass("selected")) {
 				$(this).removeClass("selected");
-				
-				if($("#listModal .selected").length < 3) {
-                    $("#startOverlay").fadeIn(300);
-                }
 			} else {
 				if($("#listModal .selected").length < 3) {
                     $(this).addClass("selected");
@@ -100,8 +106,19 @@
 		});
 
 		countDown = function() {
+			$("#message").text("3...");
+			
+			setTimeout(function() {
+				$("#message").text("2...");
+			}, 1000);
+			
+			setTimeout(function() {
+				$("#message").text("1...");
+			}, 2000);
+			
 			setTimeout(function() {
 				$(".cup img").fadeOut(200)
+				$("#message").fadeOut(200);
 				setTimeout(function() { start(0, 10); }, 200);
 			}, 3000)	
 		};
@@ -121,7 +138,27 @@
 		};
 		
 		endGame = function() {
-			$(".cup img").fadeIn(200);
+			$("#message").text("Choose Your Prize").fadeIn(200);
+			
+			$(".cup").click(function() {
+				$(this).children().fadeIn(200);
+				
+				$(".cup").unbind();
+				$(this).siblings().fadeOut(200);
+				
+				var item = items[$(this).attr('data-index')];
+				
+				var span = $("<span>").html(item.description).css('display', 'none');
+				$(this).append(span);
+				
+				$(this).addClass("win");
+
+				var that = this;
+
+				setTimeout(function() {
+					$(that).children("span").fadeIn(200);
+				}, 1000);
+			});
 		}
 
 		/***** Animation Fun ******/
