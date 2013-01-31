@@ -1,0 +1,53 @@
+{"ts":1358803737309,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"!!! 5\nhtml(lang='en')\n\thead\n\t\ttitle=\"Gaia\"\n\t\tlink(rel=\"stylesheet\", type=\"text/css\", href=\"/stylesheets/gaia.css\")\n\t\tscript(type=\"text/javascript\", src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\")\n\t\tscript(type=\"text/javascript\", src=\"/javascripts/gaia.js\")\n\n\tbody\n\t\tdiv(id='game')\n\t\t\tdiv(class=\"cup left\", id=\"cup1\")\n\t\t\tdiv(class=\"cup mid\", id=\"cup2\")\n\t\t\tdiv(class=\"cup right\", id=\"cup3\")\n\n\t\tdiv(id='listModal')\n\n\t\tdiv(id='winModal')\n"]],"start1":0,"start2":0,"length1":0,"length2":452}]],"length":452}
+{"contributors":[],"silentsave":true,"ts":1358803743959,"patch":[[{"diffs":[[0,"me')"],[-1,"\n\t\t\tdiv(class=\"cup left\", id=\"cup1\")\n\t\t\tdiv(class=\"cup mid\", id=\"cup2\")\n\t\t\tdiv(class=\"cup right\", id=\"cup3\")"],[0,"\n\n\t\t"]],"start1":294,"start2":294,"length1":116,"length2":8}]],"length":344,"saved":false}
+{"ts":1358803794653,"patch":[[{"diffs":[[0,"='game')"],[1,"\n        "],[0,"\n\n\t\tdiv("]],"start1":290,"start2":290,"length1":16,"length2":25}]],"length":353,"saved":false}
+{"ts":1358803795198,"patch":[[{"diffs":[[0,"        "],[1,"    "],[0,"\n\n\t\tdiv("]],"start1":299,"start2":299,"length1":16,"length2":20}]],"length":357,"saved":false}
+{"ts":1358803795699,"patch":[[{"diffs":[[0,"        "],[1,"bu"],[0,"\n\n\t\tdiv("]],"start1":303,"start2":303,"length1":16,"length2":18}]],"length":359,"saved":false}
+{"ts":1358803797080,"patch":[[{"diffs":[[0,"      bu"],[1,"tton"],[0,"\n\n\t\tdiv("]],"start1":305,"start2":305,"length1":16,"length2":20}]],"length":363,"saved":false}
+{"ts":1358803801271,"patch":[[{"diffs":[[0,"  button"],[1,"(id=\"startG"],[0,"\n\n\t\tdiv("]],"start1":309,"start2":309,"length1":16,"length2":27}]],"length":374,"saved":false}
+{"ts":1358803803071,"patch":[[{"diffs":[[0,"=\"startG"],[1,"ame\""],[0,"\n\n\t\tdiv("]],"start1":320,"start2":320,"length1":16,"length2":20}]],"length":378,"saved":false}
+{"ts":1358803805346,"patch":[[{"diffs":[[0,"artGame\""],[1,")="],[0,"\n\n\t\tdiv("]],"start1":324,"start2":324,"length1":16,"length2":18}]],"length":380,"saved":false}
+{"ts":1358803808000,"patch":[[{"diffs":[[0,"tGame\")="],[1,"S"],[0,"\n\n\t\tdiv("]],"start1":326,"start2":326,"length1":16,"length2":17}]],"length":381,"saved":false}
+{"ts":1358803874884,"patch":[[{"diffs":[[0,"e\")="],[-1,"S"],[1,"\"Start\""],[0,"\n\n\t\t"]],"start1":330,"start2":330,"length1":9,"length2":15}]],"length":387,"saved":false}
+{"ts":1358803939734,"patch":[[{"diffs":[[0,"\n\tbody\n\t"],[-1,"\t"],[1,"    "],[0,"div(id='"]],"start1":275,"start2":275,"length1":17,"length2":20}]],"length":390,"saved":false}
+{"ts":1358803949179,"patch":[[{"diffs":[[0,"e')\n"],[-1,"            "],[1,"\t\t\t"],[0,"butt"]],"start1":298,"start2":298,"length1":20,"length2":11}]],"length":381,"saved":false}
+{"ts":1358803965901,"patch":[[{"diffs":[[0,"dy\n\t"],[-1,"    "],[1,"\t"],[0,"div("]],"start1":279,"start2":279,"length1":12,"length2":9}]],"length":378,"saved":false}
+{"ts":1358804001141,"patch":[[{"diffs":[[0,"me')"],[-1,"\n\t\t\tbutton(id=\"startGame\")=\"Start\""],[0,"\n\n\t\t"]],"start1":294,"start2":294,"length1":42,"length2":8}]],"length":344,"saved":false}
+{"ts":1358804002335,"patch":[[{"diffs":[[0,"tModal')"],[1,"\n\t\t\tbutton(id=\"startGame\")=\"Start\""],[0,"\n\n\t\tdiv("]],"start1":313,"start2":313,"length1":16,"length2":50}]],"length":378,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1358806725011,"patch":[[{"diffs":[[0,"Modal')\n"],[1,"b\n"],[0,"\t\t\tbutto"]],"start1":314,"start2":314,"length1":16,"length2":18}]],"length":380,"saved":false}
+{"ts":1358806728017,"patch":[[{"diffs":[[0,"Modal')\n"],[-1,"b"],[1,"\t\t\tbr"],[0,"\n\t\t\tbutt"]],"start1":314,"start2":314,"length1":17,"length2":21}]],"length":384,"saved":false}
+{"ts":1358806827677,"patch":[[{"diffs":[[0,"l')\n"],[-1,"\t\t\tbr\n"],[0,"\t\t\tb"]],"start1":318,"start2":318,"length1":14,"length2":8}]],"length":378,"saved":false}
+{"ts":1358806831769,"patch":[[{"diffs":[[0,"Modal')\n"],[1,"\t\t\t\n"],[0,"\t\t\tbutto"]],"start1":314,"start2":314,"length1":16,"length2":20}]],"length":382,"saved":false}
+{"ts":1358806835728,"patch":[[{"diffs":[[0,"al')\n\t\t\t"],[1,"div(id=\"st"],[0,"\n\t\t\tbutt"]],"start1":317,"start2":317,"length1":16,"length2":26}]],"length":392,"saved":false}
+{"ts":1358806840982,"patch":[[{"diffs":[[0,"v(id=\"st"],[1,"artOverlay\")"],[0,"\n\t\t\tbutt"]],"start1":327,"start2":327,"length1":16,"length2":28}]],"length":404,"saved":false}
+{"ts":1358806842077,"patch":[[{"diffs":[[0,"ay\")\n\t\t\t"],[1,"\t"],[0,"button(i"]],"start1":343,"start2":343,"length1":16,"length2":17}]],"length":405,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1358880427489,"patch":[[{"diffs":[[0,"Modal')\n"],[1,"\n"],[0,"\t\t\tdiv(i"]],"start1":314,"start2":314,"length1":16,"length2":17}]],"length":406,"saved":false}
+{"ts":1358880431304,"patch":[[{"diffs":[[0,"Modal')\n"],[1,"\t\t\th3=\""],[0,"\n\t\t\tdiv("]],"start1":314,"start2":314,"length1":16,"length2":23}]],"length":413,"saved":false}
+{"ts":1358880432993,"patch":[[{"diffs":[[0,"\n\t\t\th3=\""],[1,"Choose "],[0,"\n\t\t\tdiv("]],"start1":321,"start2":321,"length1":16,"length2":23}]],"length":420,"saved":false}
+{"ts":1358880437855,"patch":[[{"diffs":[[0,"\"Choose "],[1,"Your Priz"],[0,"\n\t\t\tdiv("]],"start1":328,"start2":328,"length1":16,"length2":25}]],"length":429,"saved":false}
+{"ts":1358880438447,"patch":[[{"diffs":[[0,"our Priz"],[1,"es\""],[0,"\n\t\t\tdiv("]],"start1":337,"start2":337,"length1":16,"length2":19}]],"length":432,"saved":false}
+{"ts":1358880504738,"patch":[[{"diffs":[[0,"l')\n\t\t\th"],[-1,"3"],[1,"2"],[0,"=\"Choose"]],"start1":318,"start2":318,"length1":17,"length2":17}]],"length":432,"saved":false}
+{"ts":1358880576137,"patch":[[{"diffs":[[0,"ose "],[-1,"Your"],[1,"3"],[0," Pri"]],"start1":332,"start2":332,"length1":12,"length2":9}]],"length":429,"saved":false}
+{"ts":1358880745297,"patch":[[{"diffs":[[0,"='game')"],[1,"\n\t\t\tsp"],[0,"\n\n\t\tdiv("]],"start1":290,"start2":290,"length1":16,"length2":22}]],"length":435,"saved":false}
+{"ts":1358880746339,"patch":[[{"diffs":[[0,"')\n\t\t\tsp"],[1,"an("],[0,"\n\n\t\tdiv("]],"start1":296,"start2":296,"length1":16,"length2":19}]],"length":438,"saved":false}
+{"ts":1358880747695,"patch":[[{"diffs":[[0,"\t\t\tspan("],[1,"id="],[0,"\n\n\t\tdiv("]],"start1":299,"start2":299,"length1":16,"length2":19}]],"length":441,"saved":false}
+{"ts":1358880963884,"patch":[[{"diffs":[[0,"span(id="],[1,"\"countdown\")"],[0,"\n\n\t\tdiv("]],"start1":302,"start2":302,"length1":16,"length2":28}]],"length":453,"saved":false}
+{"ts":1358881480617,"patch":[[{"diffs":[[0,"id=\""],[-1,"countdown\""],[1,"message"],[0,")\n\n\t"]],"start1":307,"start2":307,"length1":18,"length2":15}]],"length":450,"saved":false}
+{"ts":1358881618729,"patch":[[{"diffs":[[0,"\"message"],[1,"\""],[0,")\n\n\t\tdiv"]],"start1":310,"start2":310,"length1":16,"length2":17}]],"length":451,"saved":false}
+{"ts":1358882563367,"patch":[[{"diffs":[[0,"id='"],[-1,"winModal"],[1,"desc"],[0,"')\n"]],"start1":436,"start2":436,"length1":15,"length2":11}]],"length":447,"saved":false}
+{"ts":1358882565918,"patch":[[{"diffs":[[0,"id='desc"],[1,"Popup"],[0,"')\n"]],"start1":436,"start2":436,"length1":11,"length2":16}]],"length":452,"saved":false}
+{"ts":1358882578970,"patch":[[{"diffs":[[0,"Popup')\n"],[1,"\t\t\tp\n"]],"start1":444,"start2":444,"length1":8,"length2":13}]],"length":457,"saved":false}
+{"ts":1358882592123,"patch":[[{"diffs":[[0,"p')\n"],[-1,"\t\t\tp\n"]],"start1":448,"start2":448,"length1":9,"length2":4}]],"length":452,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1358890268486,"patch":[[{"diffs":[[0,"e\")\n"],[-1,"\n\t\tdiv(id='listModal')\n\t\t\th2=\"Choose 3 Prizes\"\n\t\t\tdiv(id=\"startOverlay\")\n\t\t\t\tbutton(id=\"startGame\")=\"Start\"\n\n\t\tdiv(id='descPopup')\n"]],"start1":317,"start2":317,"length1":135,"length2":4}]],"length":321,"saved":false}
+{"ts":1358890273853,"patch":[[{"diffs":[[0,"\n\t\t\t"],[-1,"span(id=\"message\")"],[0,"\n"]],"start1":298,"start2":298,"length1":23,"length2":5}]],"length":303,"saved":false}
+{"ts":1358890452687,"patch":[[{"diffs":[[0,"me')\n\t\t\t"],[1,"div(cl"],[0,"\n"]],"start1":294,"start2":294,"length1":9,"length2":15}]],"length":309,"saved":false}
+{"ts":1358890454813,"patch":[[{"diffs":[[0,"\t\tdiv(cl"],[1,"ass=\"pawn\" "],[0,"\n"]],"start1":300,"start2":300,"length1":9,"length2":20}]],"length":320,"saved":false}
+{"ts":1358890455907,"patch":[[{"diffs":[[0,"s=\"pawn\""],[-1," "],[0,"\n"]],"start1":310,"start2":310,"length1":10,"length2":9}]],"length":319,"saved":false}
+{"ts":1358890458200,"patch":[[{"diffs":[[0,"ss=\"pawn"],[-1,"\""],[1," "],[0,"\n"]],"start1":309,"start2":309,"length1":10,"length2":10}]],"length":319,"saved":false}
+{"ts":1358890462123,"patch":[[{"diffs":[[0,"s=\"pawn "],[1,"player\n"],[0,"\n"]],"start1":310,"start2":310,"length1":9,"length2":16}]],"length":326,"saved":false}
+{"ts":1358890464313,"patch":[[{"diffs":[[0,"n player"],[1,"\")"],[0,"\n\n"]],"start1":316,"start2":316,"length1":10,"length2":12}]],"length":328,"saved":false}
+{"ts":1358890464950,"patch":[[{"diffs":[[0,"layer\")\n"],[1,"\t"],[0,"\n"]],"start1":319,"start2":319,"length1":9,"length2":10}]],"length":329,"saved":false}
+{"ts":1358890465958,"patch":[[{"diffs":[[0,"ayer\")\n\t"],[1,"\t\tdi"],[0,"\n"]],"start1":320,"start2":320,"length1":9,"length2":13}]],"length":333,"saved":false}
+{"ts":1358890471393,"patch":[[{"diffs":[[0,"\")\n\t\t\tdi"],[1,"v(class=\"pawn enemy\");"],[0,"\n"]],"start1":324,"start2":324,"length1":9,"length2":31}]],"length":355,"saved":false}
+{"ts":1358890472517,"patch":[[{"diffs":[[0,"my\")"],[-1,";"],[0,"\n"]],"start1":349,"start2":349,"length1":6,"length2":5}]],"length":354,"saved":false}
+{"ts":1358892199607,"patch":[[{"diffs":[[0,"r\")\n"],[-1,"\t\t\tdiv(class=\"pawn enemy\")\n"]],"start1":323,"start2":323,"length1":31,"length2":4}]],"length":327,"saved":false}
